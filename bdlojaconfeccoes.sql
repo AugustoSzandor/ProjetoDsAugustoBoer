@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 22-Abr-2025 às 16:30
+-- Tempo de geração: 22-Abr-2025 às 16:35
 -- Versão do servidor: 10.4.27-MariaDB
 -- versão do PHP: 8.2.0
 
@@ -50,7 +50,7 @@ DROP TABLE IF EXISTS `produtos`;
 CREATE TABLE `produtos` (
   `cod_Peca` varchar(5) NOT NULL,
   `tamanhoPeca` varchar(1) NOT NULL,
-  `precoPeca` varchar(6) NOT NULL,
+  `precoPeca` double(3,2) NOT NULL,
   `dataFabri` varchar(10) NOT NULL,
   `tipoTecido` varchar(9) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -93,3 +93,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+

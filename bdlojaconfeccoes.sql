@@ -41,7 +41,7 @@ CREATE TABLE `cliente` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
-
+-- [CORREÇÃO: INSERIR RG, CIDADE E ESTADO na tabela de CLIENTE]---
 --
 -- Estrutura da tabela `produtos`
 --
@@ -56,7 +56,7 @@ CREATE TABLE `produtos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
-
+-- [CORREÇÃO: cod_Peca precisa ser int e auto incremento, tamanhoPeca precisa ser varchar(10) ]---
 --
 -- Estrutura da tabela `usuario`
 --
